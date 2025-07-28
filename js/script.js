@@ -55,6 +55,11 @@ document.getElementById("formagregar").addEventListener("submit", function(e) {
     e.preventDefault(); // Evita que la página se recargue
     const idx = document.getElementById("producto").value; // Índice del producto seleccionado
     const cantidad = parseInt(document.getElementById("cantidad").value); // Cantidad ingresada
+     // Validación de entrada
+    if (isNaN(cantidad) || cantidad < 1) {
+        alert("Por favor, ingresa una cantidad válida (mayor a 0).");
+        return;
+    }
     const prod = productos[idx]; // Producto seleccionado
     // Buscamos si el producto ya está en el carrito
     const existente = carrito.find(item => item.nombre === prod.nombre);
