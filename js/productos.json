@@ -1,0 +1,13 @@
+[
+  { "nombre": "Pan", "precio": 100 },
+  { "nombre": "Leche", "precio": 200 },
+  { "nombre": "Queso", "precio": 300 },
+  { "nombre": "Carne", "precio": 500 },
+  { "nombre": "Verduras", "precio": 150 },
+  { "nombre": "Frutas", "precio": 250 },
+  { "nombre": "Huevos", "precio": 350 },
+  { "nombre": "Arroz", "precio": 180 },
+  { "nombre": "Pasta", "precio": 220 },
+  { "nombre": "Aceite", "precio": 900 }
+]
+
